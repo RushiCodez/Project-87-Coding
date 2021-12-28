@@ -1,5 +1,5 @@
 
-var canvas = new fabric.js("myCanvas");
+var canvas = new fabric.Canvas("myCanvas");
  block_y=1;
  block_x=1;
 
@@ -60,7 +60,7 @@ console.log(keyPressed);
 	console.log("b")
 	}
 
-	window.addEventListener("keydown", my_keydown);
+	
 	
 	
 }
